@@ -1,0 +1,137 @@
+.navbar {
+    width: 97.5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    background-color: white; /* Adding a background color to make the shadow more prominent */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.left {
+    display: flex; 
+    align-items: center; 
+}
+
+.Logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-right: 10px; 
+}
+
+.Emri {
+    font-size: 18px; 
+    margin: 0;
+}
+
+.right {
+    display: flex; 
+    align-items: center; 
+    gap: 15px;
+}
+a.H ,.C ,.M{
+    text-decoration: none;
+    font-weight: bold;
+}
+.C ,.M{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.S, .L {
+    text-decoration: none; 
+    color: black; 
+    padding: 10px;
+    margin-right: 30px; 
+}
+
+.S:hover, .L:hover {
+    color: white; 
+    background-color: rgb(9, 214, 187); 
+    border-radius: 20px;
+}
+.TEXTI{
+    display: flex;
+    justify-content: center;
+}
+#text{
+    font-size: 28px;
+    font-weight: bolder;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.foto{
+    padding-top:55px ;
+    justify-self: center;
+    align-self: center;
+    height: 600px;
+}
+    .foto {
+        display: none; /* Hide all images by default */
+        width: 70%; /* Adjust width as needed */
+        height: 600px; /* Maintain aspect ratio */
+       border-radius: 25px;
+    }
+
+    .active {
+        display: block; /* Show only the active image */
+    }
+    .img {
+        position: relative;
+        width: 100%; /* Adjust width as needed */
+        overflow: hidden; /* Ensure arrows stay within container */
+    }
+
+    .arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 24px; /* Adjust arrow size */
+        color: white; /* Arrow color */
+        cursor: pointer;
+        padding: 10px; /* Padding around arrows */
+        border-radius: 0 25px 25px 0; /* Rounded corners, adjust as needed */
+    }
+
+    .left-arrow {
+        left: 0;
+        width: 250px;
+        height: 250px;
+    }
+
+    .right-arrow {
+        right: 0;
+        border-radius: 25px 0 0 25px; /* Adjust rounded corners for right arrow */
+        width: 250px;
+        height: 250px;
+    }
+
+
+   
+
+    .active {
+        display: block; /* Show only the active image */
+    }
+ 
+.foto{
+    width: 1000px;
+height: 500px;
+}
+.H{
+    color: #0023DA;
+}
+
+#slider {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.photoo {
+    height: 100px;
+    width: 100px;
+}
