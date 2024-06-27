@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 1500px;
+    margin: 20px;
+}
+.image-container {
+    flex: 1;
+}
+.image-container img {
+    margin-top: 80px;
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.content {
+    flex: 1;
+    padding: 50px;
+}
+.content h1 {
+    font-size: 64px;
+    margin-bottom: 40px;
+}
+.content p {
+    font-size: 32px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+.price-list {
+    margin-bottom: 40px;
+}
+.price-list li {
+    list-style: none;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.price-list li span {
+    color: red;
+    margin-right: 20px;
+}
+.button {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #00c0ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 32px;
+}
+.rating {
+    font-size: 40px;
+    color: gold;
+    margin-top: 30px;
+}
+.reviews {
+    font-size: 32px;
+    color: gray;
+    margin-top: 15px;
+}
